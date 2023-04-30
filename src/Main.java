@@ -1,7 +1,8 @@
 public class Main {
     public static void main(String[] args) {
-        int x = 13676;
-        int y = 20;
-        System.out.println(x/y);
+        int price = 13_676;
+
+        int miles = price / 20;
+        System.out.println("Бонус: " + miles);
     }
 }
